@@ -4,6 +4,7 @@
 This project demonstrates how to deploy and configure a Jenkins server on an AWS EC2 instance using Terraform. The goal is to automate the provisioning of infrastructure (Infrastructure as Code) and set up a functional Jenkins environment capable of running jobs.
 
 ## Technologies Used
+
 - AWS EC2
 - Terraform
 - Jenkins
@@ -54,47 +55,31 @@ These commands verify system information and confirm that Jenkins can execute ta
 
 ## Project Screenshots
 
-### Terraform Deployment
-
-Début du déploiement :
+### 1. Terraform Deployment
 
 ![Terraform Start](./screenshots/terraform-start.png)
 
-Fin du déploiement :
-
 ![Terraform End](./screenshots/terraform-end.png)
 
----
-
-### EC2 Instance & Security Group
+### 2. EC2 Instance & Security Group
 
 ![EC2 Instance](./screenshots/ec2.png)
 
 ![Security Group](./screenshots/security-group.png)
 
----
-
-### Jenkins Dashboard
+### 3. Jenkins Dashboard
 
 ![Jenkins Dashboard](./screenshots/jenkins-dashboard.png)
 
----
-
-### Jenkins Job Execution
+### 4. Jenkins Job Execution
 
 ![Job Creation](./screenshots/job-create.png)
 
 ![Job Execution](./screenshots/job-run.png)
 
----
-
-### Console Output
-
-Début :
+### 5. Console Output
 
 ![Console Start](./screenshots/console-start.png)
-
-Fin :
 
 ![Console End](./screenshots/console-end.png)
 
@@ -102,12 +87,14 @@ Fin :
 An AMI was created from the EC2 instance to preserve the Jenkins server configuration and allow quick redeployment in the future.
 
 ## Results
+
 - Fully automated AWS infrastructure using Terraform
 - Jenkins successfully installed and configured
 - First Jenkins job executed successfully
 - AMI created for reuse and scalability
 
 ## Skills Demonstrated
+
 - Infrastructure as Code (Terraform)
 - AWS EC2 provisioning and networking
 - Jenkins installation and configuration
